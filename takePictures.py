@@ -1,6 +1,6 @@
 import cv2
-import PyKinectV2
-import PyKinectRuntime
+from pykinect2 import PyKinectV2
+from pykinect2 import PyKinectRuntime
 import numpy as np
 import const
 import time
