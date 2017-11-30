@@ -11,15 +11,16 @@ This project is an updated fork of @tataraidze KinectV2 Camera calibration scrip
 ## Installing on Windows
 I recommend using [Anaconda](https://www.anaconda.com/download)'s 32 bits Python3 distribution. It bundles packages such as `comtypes` and `numpy`. 
 1. Install Python 3 *32bits* from Anaconda's download [page](https://www.anaconda.com/download)
+
    Make sure to register Anaconda as your default path. *pykinect2* will not work on the 64bits distro ([more info here](https://github.com/Kinect/PyKinect2/issues/17)).
 2. Clone and install `pykinect2`
-   2.1. `pip install comtypes`
-   2.2. `git clone https://github.com/Kinect/PyKinect2.git`
-   2.3  `python -m easy_install PyKinect2`
+   1. `pip install comtypes`
+   2. `git clone https://github.com/Kinect/PyKinect2.git`
+   3.  `python -m easy_install PyKinect2`
 3. Install OpenCV 3.3.1 (or newer from `https://www.lfd.uci.edu/~gohlke/pythonlibs/`).
-   3.1. Download the right .egg file for your python version (e.g.: 3.6) and architecture (e.g.: 32bits).
-     In my case I downloaded, [opencv_python‑3.3.1+contrib‑cp36‑cp36m‑win32.whl](https://download.lfd.uci.edu/pythonlibs/yhckc96n/opencv_python-3.3.1+contrib-cp36-cp36m-win32.whl)
-   3.2. Install it with `pip`
+   1. Download the right .egg file for your python version (e.g.: 3.6) and architecture (e.g.: 32bits). In my case I downloaded, [opencv_python‑3.3.1+contrib‑cp36‑cp36m‑win32.whl](https://download.lfd.uci.edu/pythonlibs/yhckc96n/opencv_python-3.3.1+contrib-cp36-cp36m-win32.whl)
+   2. Install it with `pip`
+ 
      `pip install opencv_python-3.3.1+contrib-cp36-cp36m-win32.whl`
 
 # File descriptions
